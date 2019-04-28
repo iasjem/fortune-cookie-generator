@@ -9,6 +9,7 @@ A random fortune cookie quotes generator that can be shared through Facebook
 - CSS3
 - Vanilla Javascript
 - [Facebook for Web Developers](https://developers.facebook.com/docs/web) - Quote sharing feature
+- [Github Pages](https://pages.github.com/) - where the web page is deployed
 
 ## License
 
