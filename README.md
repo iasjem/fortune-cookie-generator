@@ -8,19 +8,13 @@ A random fortune cookie quotes generator that can be shared through Facebook
 - HTML5
 - CSS3
 - Vanilla Javascript
-
+- [Facebook for Web Developers](https://developers.facebook.com/docs/web) - Quote sharing feature
 
 ## License
 
-This project is licensed under the MIT License - see [LICENSE.md](https://github.com/jsCodeDevs/fortune-cookies/blob/master/LICENSE.md) file for details.
+This project is licensed under the MIT License - see [LICENSE.md](https://github.com/iasjem/fortune-cookie-generator/blob/master/LICENSE.md) file for details.
 
 
 ## Author
 
-- **iasjem** - Team Admin
-
-
-## Acknowledgements
-
-* [Initializr](http://www.initializr.com/) - HTML5 boilerplate generator
-* [Stakoverflow](https://stackoverflow.com/) - Giving tips on building this project like [Adding a favicon to a static HTML page](https://stackoverflow.com/questions/9943771/adding-a-favicon-to-a-static-html-page)
+[__iasjem__](https://github.com/iasjem) - Fullstack developer : responsible for creating this web page
