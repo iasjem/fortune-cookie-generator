@@ -4,20 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fortune Cookie Generator by jsCodeDevs</title>
+    <title>Fortune Cookie Generator</title>
+    <meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="When Great Minds Don’t Think Alike" />
+    <meta property="og:description"        content="How much does culture influence creative thinking?" />
+    <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="client/style.css" />
 </head>
-<body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <section class="container">
         <header>
             <h1>Fortune Cookie Generator</h1>
         </header>
         <button id="btn__more-quotes">I want more!</button>
-        <div class="box__quote">
+        <div class="box__quote fb-quotable">
             <h2>Quotes goes here...</h2>
-        </div>
-    </section>
+            <!-- Your share button code -->
+            <div class="fb-share-button" 
+            data-href="https://www.your-domain.com/your-page.html" 
+            data-layout="button_count">
+            </div>
+        </div>        
+    </section>			
     <footer>
         <p>&copy; 2019 Created by <a target="_blank" href="https://github.com/jsCodeDevs">jsCodeDevs</a></p>
     </footer>    

@@ -39,11 +39,11 @@ footer { height: 50px; }
 
 /* COMPONENTS */
 
-a { 
+/* a { 
     text-decoration: none; 
     color: #0099ff;
     font-weight: 600;
-}
+} */
 
 h1 {
     text-transform: uppercase;
