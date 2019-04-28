@@ -6,32 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fortune Cookie Generator</title>
     <meta property="og:url"                content="https://iasjem.github.io/fortune-cookie-generator" />
-    <meta property="og:type"               content="article" />
-    <meta property="og:title"              content="When Great Minds Don’t Think Alike" />
-    <meta property="og:description"        content="How much does culture influence creative thinking?" />
-    <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Fortune Cookie Generator" />
+    <meta property="og:description"        content="A random fortune cookie quotes generator that can be shared through Facebook" />
+    <meta property="og:image"              content="client/overview.png" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="client/style.css" />
 </head>
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-        fjs.parentNode.insertBefore(js, fjs);
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+      fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
     <section class="container">
         <header>
             <h1>Fortune Cookie Generator</h1>
         </header>
         <button id="btn__more-quotes">I want more!</button>
-        <div class="box__quote fb-quotable">
-            <h2>Quotes goes here...</h2>
-            <!-- Your share button code -->
-            <div class="fb-share-button" data-href="https://iasjem.github.io/fortune-cookie-generator/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fiasjem.github.io%2Ffortune-cookie-generator%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-        </div>        
+        <div class="box__quote">
+            <h2 class="fb-quotable"></h2>
+        </div>
+        <div class="fb-quote"></div>      
     </section>			
     <footer>
         <p>&copy; 2019 Created by <a target="_blank" href="https://github.com/jsCodeDevs">jsCodeDevs</a></p>
